@@ -1,0 +1,28 @@
+.input-style,
+.textarea-style {
+    border-radius: 0 !important;
+    color: var(--gray-color) !important;
+}
+
+.input-style {
+    height: 48px !important;
+}
+
+.textarea-style {
+    height: 130px !important;
+}
+
+.input-style::placeholder {
+    color: rgba(85, 85, 85, .3);
+}
+
+.input-style:focus,
+.textarea-style:focus {
+    box-shadow: none;
+    border: 1px solid var(--main-theme-color);
+}
+
+/* .label-style {
+    color: rgba(85, 85, 85, .3) !important;
+    font-size: 20px !important;
+} */

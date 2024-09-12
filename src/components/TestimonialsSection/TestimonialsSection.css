@@ -1,0 +1,49 @@
+.indicator {
+    height: 13px;
+    width: 13px;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.indicator.active {
+    background-color: var(--main-theme-color) !important;
+}
+
+.indicator.not-active {
+    background-color: #fff !important;
+    height: 12px !important;
+    width: 12px !important;
+    border: 1px solid var(--main-theme-color) !important;
+}
+
+.testimonials-card-img-width-style {
+    width: 90px !important;
+}
+
+.remove-border {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+/* .before-and-after-element-style::before {
+    content: "\201C";
+    color: var(--main-theme-color);
+    position: absolute;
+    font-size: 50px !important;
+    top: 12px;
+    left: -5px;
+}
+
+.before-and-after-element-style::after {
+    content: "\201E";
+    color: var(--main-theme-color);
+    position: absolute;
+    font-size: 50px !important;
+    bottom 12px !important;
+    right: 0%;
+} */
+
+/* .before-and-after-element-style {
+    text-indent: 30px !important;
+} */

@@ -1,0 +1,27 @@
+.doctor-card-style {
+    border: none;
+    width: 23% !important;
+    /* height: 390px !important; */
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.doctor-card-style:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.doctor-card-font-size-style {
+    font-size: 14px !important;
+}
+
+@media (max-width: 992px) {
+    .doctor-card-style {
+        width: 45% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .doctor-card-style {
+        width: 90% !important;
+    }
+}

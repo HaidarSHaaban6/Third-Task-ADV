@@ -1,0 +1,17 @@
+.footer-contact-icon-style {
+    width: 40px !important;
+    height: 40px !important;
+    border: 1px solid var(--light-gray-color) !important;
+    border-radius: 50% !important;
+}
+
+.footer-contact-icon-container-style {
+    width: 200px !important;
+}
+
+@media (max-width: 415px) {
+    .col-style {
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
+}

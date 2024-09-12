@@ -1,0 +1,31 @@
+.asked-questions-accordion-style {
+    border: 1px solid #55555533 !important;
+}
+
+.accordion-flush>.accordion-item>.accordion-header .accordion-button,
+.accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    color: var(--gray-color) !important;
+}
+
+.accordion-button::after {
+    transform: rotate(-90deg) !important;
+}
+
+.asked-questions-width-style {
+    width: 75% !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: transparent !important;
+}
+
+@media (max-width: 992px) {
+    .asked-questions-width-style {
+        width: 98% !important;
+    }
+}

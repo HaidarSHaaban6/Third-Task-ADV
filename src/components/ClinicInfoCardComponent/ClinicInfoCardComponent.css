@@ -1,0 +1,17 @@
+.card-style-clinic-info {
+    width: 23% !important;
+    border: none !important;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 992px) {
+    .card-style-clinic-info {
+        width: 46% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-style-clinic-info {
+        width: 98% !important;
+    }
+}

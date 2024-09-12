@@ -1,0 +1,70 @@
+:root {
+    --main-theme-color: #3fbbc0;
+    --light-main-theme-color: #f7fcfc;
+    --gray-color: #555555;
+    --light-gray-color: #55555566;
+    --semi-light-gray-color: #555555b7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Ubuntu", sans-serif;
+    /* font-family: "Signika", sans-serif; */
+}
+
+::selection {
+    background-color: var(--main-theme-color) !important;
+}
+
+.bg-color-main-theme {
+    background-color: var(--main-theme-color) !important;
+}
+
+.bg-color-light-main-theme {
+    background-color: var(--light-main-theme-color) !important;
+}
+
+.fs-7 {
+    font-size: .85rem !important;
+}
+
+.text-color-gray {
+    color: var(--gray-color) !important;
+}
+
+.text-color-light-gray {
+    color: var(--light-gray-color) !important;
+}
+
+.text-color-semi-light-gray {
+    color: var(--semi-light-gray-color) !important;
+}
+
+.text-color-main-theme {
+    color: var(--main-theme-color) !important;
+}
+
+.py-6 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+}
+
+.pb-6 {
+    padding-bottom: 4.5rem !important;
+}
+
+.mb-6 {
+    padding-bottom: 4.5rem !important;
+}
+
+.my-6 {
+    margin-top: 4.5rem !important;
+    margin-bottom: 4.5rem !important;
+}
+
+.object-fit-cover {
+    object-fit: cover !important;
+}

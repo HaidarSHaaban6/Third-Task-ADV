@@ -1,0 +1,13 @@
+.btn-style {
+    border: none !important;
+}
+
+.btn-padding-style {
+    padding: .5rem 2.1rem !important;
+}
+
+@media (max-width: 576px) {
+    .btn-padding-style {
+        padding: .5rem 1.1rem !important;
+    }
+}

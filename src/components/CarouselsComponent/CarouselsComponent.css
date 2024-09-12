@@ -1,0 +1,38 @@
+.carousel-caption::after {
+    content: "";
+    width: 100% !important;
+    height: 6px;
+    background-color: var(--main-theme-color);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: var(--main-theme-color) !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 10% !important;
+}
+
+.translate-style {
+    transform: translateY(-25%) translateX(-50%) !important;
+}
+
+@media (max-width: 768px) {
+    .translate-style {
+        transform: translateY(-15%) translateX(-50%) !important;
+    }
+}

@@ -1,0 +1,24 @@
+.nav-logo-style {
+    width: 150px !important;
+}
+
+.nav-bar-style a:hover {
+    color: var(--main-theme-color) !important;
+}
+
+.navbar-toggler {
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+@media (max-width: 576px) {
+    .nav-logo-style {
+        width: 100px !important;
+    }
+}

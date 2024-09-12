@@ -1,0 +1,40 @@
+.contact-section-map-style {
+    border: none !important;
+    width: 100% !important;
+    height: 390px !important;
+}
+
+.contact-icon-style {
+    width: 60px !important;
+    height: 60px !important;
+    border: 3px dotted var(--main-theme-color) !important;
+    border-radius: 50% !important;
+}
+
+.contact-card-box-shadow-style {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.w-47-style {
+    width: 47% !important;
+}
+
+.w-49-style {
+    width: 49% !important;
+}
+
+.padding-contact-inputs-style {
+    padding: 1.9rem !important;
+}
+
+@media (max-width: 992px) {
+    .w-49-style {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .w-47-style {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,15 @@
+.scroll-container {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .scroll-container {
+        bottom: 10px;
+        right: 10px;
+    }
+}

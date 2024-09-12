@@ -1,0 +1,17 @@
+.active-img {
+    border: 6px solid var(--main-theme-color) !important;
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.gallery-active-img-style:hover {
+    cursor: pointer !important;
+}
+
+@media (max-width: 576px) {
+    .active-img {
+        border: none !important;
+        transform: scale(1);
+        z-index: 1;
+    }
+}

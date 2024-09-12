@@ -1,0 +1,9 @@
+.btn-border-style {
+    border: 2px solid #fff !important;
+    transition: all .3s linear;
+}
+
+.btn-border-style:hover {
+    background-color: #fff;
+    color: var(--main-theme-color);
+}

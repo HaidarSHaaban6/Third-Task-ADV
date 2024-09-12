@@ -1,0 +1,41 @@
+.width-outer-play-icon {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.width-inner-play-icon {
+    width: 55px !important;
+    height: 55px !important;
+}
+
+.bg-color-main-theme-with-opacity {
+    background-color: rgba(63, 187, 192, .4);
+}
+
+.width-outer-play-icon:hover {
+    cursor: pointer;
+}
+
+.font-size-style {
+    font-size: 21px !important;
+}
+
+.width-style-for-about-us-section {
+    width: 50% !important;
+}
+
+.height-style-for-about-us-section-img {
+    height: 95% !important;
+}
+
+.card-style-clinic-info {
+    width: 23% !important;
+    border: none !important;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 992px) {
+    .width-style-for-about-us-section {
+        width: 100% !important;
+    }
+}

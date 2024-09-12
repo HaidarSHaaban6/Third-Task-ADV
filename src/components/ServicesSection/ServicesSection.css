@@ -1,0 +1,39 @@
+.services-section-card {
+    border: none !important;
+    width: 32% !important;
+}
+
+.services-section-card-icon {
+    width: 80px !important;
+    height: 80px !important;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services-section-card-header {
+    position: relative;
+}
+
+.services-section-card-header::after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: var(--main-theme-color);
+}
+
+@media (max-width: 992px) {
+    .services-section-card {
+        border: none !important;
+        width: 48% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-section-card {
+        border: none !important;
+        width: 98% !important;
+    }
+}
